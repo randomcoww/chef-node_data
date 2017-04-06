@@ -1,0 +1,7 @@
+name             'node_data'
+maintainer       'YOUR_NAME'
+maintainer_email 'YOUR_EMAIL'
+license          'All rights reserved'
+description      'Installs/Configures node_data'
+long_description 'Installs/Configures node_data'
+version          '0.1.0'
