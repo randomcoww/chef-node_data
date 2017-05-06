@@ -11,7 +11,7 @@ module NodeData
         n = IPAddr.new(network)
 
         Socket.ip_address_list.each do |e|
-          if e.ipv4_private? && n.include?(e.ip_address)
+          if e.ipv4? && n.include?(e.ip_address)
             subnet_ips << e.ip_address
           end
         end
